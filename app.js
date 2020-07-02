@@ -1,6 +1,6 @@
 var x = document.getElementById("inputValue");
 
-function getResult(num) {
+function getResult(num) {    
     x.value += num;
 }
 function clearText() {
@@ -9,6 +9,5 @@ function clearText() {
 }
 
 function calcResult(){
-    //var y = document.getElementById("power");
     x.value = eval(x.value);    
 }
